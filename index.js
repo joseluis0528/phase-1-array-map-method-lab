@@ -14,9 +14,9 @@ const tutorials = [
 const titleCased = () => {
   const fixedTutorials = tutorials.map(string => {
     const strings = string.split(" ").map(word => {
-      return word.charAt(0).toUpperCase() + word.slice(1)
+      return word.charAt(0).toUpperCase() + word.slice(1);
     })
-    return strings.join(" ")
+    return strings.join(" ");
   })
-  return fixedTutorials
+  return fixedTutorials;
 }
